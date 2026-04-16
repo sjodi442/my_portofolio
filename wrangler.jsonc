@@ -3,7 +3,13 @@
   "name": "sjodi-portofolio",
   "compatibility_date": "2026-04-15",
   "observability": {
-    "enabled": true
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false
+    }
   },
   "main": ".svelte-kit/cloudflare/_worker.js",
   "assets": {

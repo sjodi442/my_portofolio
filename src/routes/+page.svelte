@@ -6,6 +6,7 @@
 	import Teaching from '$lib/components/Teaching.svelte';
 	import Toolkit from '$lib/components/Toolkit.svelte';
 	import Credentials from '$lib/components/Credentials.svelte';
+	import Projects from '$lib/components/Projects.svelte';
 	import Gallery from '$lib/components/Gallery.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import Footer from '$lib/components/Footer.svelte';
@@ -57,6 +58,7 @@
 	<Teaching />
 	<Toolkit />
 	<Credentials />
+	<Projects />
 	<Gallery />
 	<Contact />
 </main>

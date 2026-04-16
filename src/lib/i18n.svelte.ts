@@ -137,6 +137,42 @@ export const dict = {
 			],
 			verified: 'Verified'
 		},
+		projects: {
+			title: 'Projects',
+			items: [
+				{
+					cat: 'Web Application',
+					title: 'LPK Saindo Web & Blog',
+					desc: 'Official website and blog platform for LPK Saindo.',
+					link: 'https://lpksaindoweb.sjodi442.workers.dev'
+				},
+				{
+					cat: 'AI Tool',
+					title: 'Auto Kwitansi AI',
+					desc: 'AI-powered online receipt generator.',
+					link: 'https://autokwitansi.sjodi442.workers.dev'
+				},
+				{
+					cat: 'Platform',
+					title: 'BenkyouLab Homepage',
+					desc: 'Landing page for the BenkyouLab online learning platform.',
+					link: 'https://benkyoulab.online'
+				},
+				{
+					cat: 'Platform',
+					title: 'BenkyouLab E-Learning',
+					desc: 'Comprehensive E-Learning portal for BenkyouLab.',
+					link: 'https://portal-benkyou.web.id'
+				},
+				{
+					cat: 'Web Application',
+					title: 'LPK Students Management',
+					desc: 'Comprehensive student management web application for LPK.',
+					link: 'https://lpk-students-management.vercel.app/'
+				}
+			],
+			visit: 'Visit Project'
+		},
 		gallery: {
 			titlePre: 'Visual',
 			titlePost: 'Record',
@@ -301,6 +337,42 @@ export const dict = {
 			],
 			verified: 'Terverifikasi'
 		},
+		projects: {
+			title: 'Proyek',
+			items: [
+				{
+					cat: 'Aplikasi Web',
+					title: 'Web & Blog LPK Saindo',
+					desc: 'Situs web resmi dan platform blog untuk LPK Saindo.',
+					link: 'https://lpksaindoweb.sjodi442.workers.dev'
+				},
+				{
+					cat: 'Alat AI',
+					title: 'Kwitansi Online dengan AI',
+					desc: 'Pembuat kwitansi online otomatis menggunakan teknologi AI.',
+					link: 'https://autokwitansi.sjodi442.workers.dev'
+				},
+				{
+					cat: 'Platform',
+					title: 'Beranda BenkyouLab',
+					desc: 'Halaman utama untuk platform belajar online BenkyouLab.',
+					link: 'https://benkyoulab.online'
+				},
+				{
+					cat: 'Platform',
+					title: 'E-Learning BenkyouLab',
+					desc: 'Portal E-Learning komprehensif untuk BenkyouLab.',
+					link: 'https://portal-benkyou.web.id'
+				},
+				{
+					cat: 'Aplikasi Web',
+					title: 'Manajemen Siswa LPK',
+					desc: 'Aplikasi web manajemen siswa komprehensif untuk LPK.',
+					link: 'https://lpk-students-management.vercel.app/'
+				}
+			],
+			visit: 'Kunjungi Proyek'
+		},
 		gallery: {
 			titlePre: 'Rekam',
 			titlePost: 'Visual',
@@ -464,6 +536,42 @@ export const dict = {
 				}
 			],
 			verified: '認定済み'
+		},
+		projects: {
+			title: 'プロジェクト',
+			items: [
+				{
+					cat: 'Webアプリケーション',
+					title: 'LPK Saindo Web & Blog',
+					desc: 'LPK Saindoの公式ウェブサイトおよびブログプラットフォーム。',
+					link: 'https://lpksaindoweb.sjodi442.workers.dev'
+				},
+				{
+					cat: 'AIツール',
+					title: 'Auto Kwitansi AI',
+					desc: 'AIを搭載したオンライン領収書自動生成ツール。',
+					link: 'https://autokwitansi.sjodi442.workers.dev'
+				},
+				{
+					cat: 'プラットフォーム',
+					title: 'BenkyouLab ホームページ',
+					desc: 'オンライン学習プラットフォーム「BenkyouLab」のランディングページ。',
+					link: 'https://benkyoulab.online'
+				},
+				{
+					cat: 'プラットフォーム',
+					title: 'BenkyouLab E-Learning',
+					desc: 'BenkyouLabの総合Eラーニングポータル。',
+					link: 'https://portal-benkyou.web.id'
+				},
+				{
+					cat: 'Webアプリケーション',
+					title: 'LPK Students Management',
+					desc: 'LPK（登録支援機関）のための総合的な学生管理Webアプリケーション。',
+					link: 'https://lpk-students-management.vercel.app/'
+				}
+			],
+			visit: 'プロジェクトを見る'
 		},
 		gallery: {
 			titlePre: '視覚的',
