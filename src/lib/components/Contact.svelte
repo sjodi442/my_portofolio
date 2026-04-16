@@ -2,20 +2,24 @@
 	import { i18n, dict } from '$lib/i18n.svelte';
 	let t = $derived(dict[i18n.locale as keyof typeof dict].contact);
 	
-	let status = $state<'idle' | 'submitting' | 'success'>('idle');
-	
-	function handleSubmit(e: SubmitEvent) {
-		e.preventDefault();
-		status = 'submitting';
-		// Fake network request
-		setTimeout(() => {
-			status = 'success';
-			// Reset form after a few seconds
-			setTimeout(() => {
-				status = 'idle';
-				(e.target as HTMLFormElement).reset();
-			}, 3000);
-		}, 1500);
+	function handleAction(method: 'email' | 'whatsapp') {
+		const form = document.forms.namedItem('contact') as HTMLFormElement;
+		if (!form.checkValidity()) {
+			form.reportValidity();
+			return;
+		}
+		const data = new FormData(form);
+		const name = data.get('name') as string;
+		const email = data.get('email') as string;
+		const message = data.get('message') as string;
+		
+		if (method === 'email') {
+			const body = `Name: ${name}%0D%0AEmail: ${email}%0D%0AMessage: ${message}`;
+			window.open(`mailto:sjodi442@gmail.com?subject=Portfolio Contact from ${name}&body=${body}`, '_blank');
+		} else {
+			const text = `Hi, my name is ${name} (${email}).\n\n${message}`;
+			window.open(`https://wa.me/6285121016509?text=${encodeURIComponent(text)}`, '_blank');
+		}
 	}
 </script>
 
@@ -29,7 +33,7 @@
 			{t.desc}
 		</p>
 		
-		<form class="flex flex-col gap-10 text-left" onsubmit={handleSubmit} name="contact">
+		<form class="flex flex-col gap-10 text-left" name="contact" onsubmit={(e) => e.preventDefault()}>
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
 				<div class="flex flex-col gap-2">
 					<label for="name" class="font-grotesk text-[10px] tracking-[0.2em] text-gray-500 uppercase">{t.nameLabel}</label>
@@ -46,15 +50,14 @@
 				<textarea id="message" name="message" rows="4" class="input-brutal text-white resize-none" placeholder="ENCODE MESSAGE HERE..." required></textarea>
 			</div>
 			
-			<button type="submit" disabled={status !== 'idle'} class="mt-8 bg-primary text-surface px-8 py-4 font-bold hover:bg-white transition-colors brutal-border shadow-neon-primary text-sm uppercase tracking-widest mx-auto w-full md:w-auto min-w-[250px] disabled:opacity-50 disabled:cursor-not-allowed">
-				{#if status === 'submitting'}
-					SENDING...
-				{:else if status === 'success'}
-					MESSAGE DELIVERED
-				{:else}
-					{t.submit}
-				{/if}
-			</button>
+			<div class="mt-8 flex flex-col sm:flex-row gap-6 justify-center items-center w-full">
+				<button type="button" onclick={() => handleAction('email')} class="bg-primary text-surface px-8 py-4 font-bold hover:bg-white transition-colors brutal-border shadow-neon-primary text-sm uppercase tracking-widest w-full sm:w-1/2">
+					EMAIL
+				</button>
+				<button type="button" onclick={() => handleAction('whatsapp')} class="bg-green-500 text-surface px-8 py-4 font-bold hover:bg-white transition-colors brutal-border shadow-[4px_4px_0px_#22c55e] hover:shadow-[4px_4px_0px_#fff] hover:text-black text-sm uppercase tracking-widest w-full sm:w-1/2">
+					WHATSAPP
+				</button>
+			</div>
 		</form>
 		
 	</div>
