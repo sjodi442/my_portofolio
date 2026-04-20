@@ -141,6 +141,12 @@ export const dict = {
 			title: 'Projects',
 			items: [
 				{
+					cat: 'Photography Gallery',
+					title: 'Dusk Album',
+					desc: 'A curated archive of visual stories exploring silence, light, and metropolitan life.',
+					link: 'https://album.sjodi442.workers.dev/'
+				},
+				{
 					cat: 'Web Application',
 					title: 'LPK Saindo Web & Blog',
 					desc: 'Official website and blog platform for LPK Saindo.',
@@ -341,6 +347,12 @@ export const dict = {
 			title: 'Proyek',
 			items: [
 				{
+					cat: 'Galeri Fotografi',
+					title: 'Dusk Album',
+					desc: 'Arsip cerita visual yang dikurasi, mengeksplorasi keheningan, cahaya, dan kehidupan metropolitan.',
+					link: 'https://album.sjodi442.workers.dev/'
+				},
+				{
 					cat: 'Aplikasi Web',
 					title: 'Web & Blog LPK Saindo',
 					desc: 'Situs web resmi dan platform blog untuk LPK Saindo.',
@@ -540,6 +552,12 @@ export const dict = {
 		projects: {
 			title: 'プロジェクト',
 			items: [
+				{
+					cat: 'フォトグラフィーギャラリー',
+					title: 'Dusk Album',
+					desc: '静寂、光、そして都市生活をテーマにした、厳選された視覚的な物語のアーカイブ。',
+					link: 'https://album.sjodi442.workers.dev/'
+				},
 				{
 					cat: 'Webアプリケーション',
 					title: 'LPK Saindo Web & Blog',
