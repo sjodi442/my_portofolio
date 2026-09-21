@@ -5,6 +5,8 @@ A high-performance, single-page portfolio website built with SvelteKit and Tailw
 ## ✨ Featured Projects
 
 - **[Dusk Album](https://album.sjodi442.workers.dev/)** — A curated archive of visual stories exploring silence, light, and metropolitan life.
+- **[Kept Pages (Personal Blog)](https://personal-blog.sjodi442.workers.dev/)** — A Japanese stationery-inspired personal notebook and long-form archive exploring slow computing, joinery, and language craft.
+- **[BenkyouLab Blog](https://benkyoulab-blog.vercel.app/)** — Structured learning platform blog featuring Japanese language curricula, SSW exam preparation, and cultural insights.
 - **[LPK Saindo Web & Blog](https://lpksaindoweb.sjodi442.workers.dev)** — Official website and blog platform for LPK Saindo.
 - **[Auto Kwitansi AI](https://autokwitansi.sjodi442.workers.dev)** — AI-powered online receipt generator.
 - **[BenkyouLab Homepage](https://benkyoulab.online)** — Landing page for the BenkyouLab online learning platform.

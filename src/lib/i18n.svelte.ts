@@ -147,6 +147,18 @@ export const dict = {
 					link: 'https://album.sjodi442.workers.dev/'
 				},
 				{
+					cat: 'Digital Stationery & Blog',
+					title: 'Kept Pages (Personal Blog)',
+					desc: 'A Japanese stationery-inspired personal notebook and long-form archive exploring slow computing, joinery, and language craft.',
+					link: 'https://personal-blog.sjodi442.workers.dev/'
+				},
+				{
+					cat: 'Knowledge Hub & Publication',
+					title: 'BenkyouLab Blog',
+					desc: 'Structured learning platform blog featuring Japanese language curricula, SSW exam preparation, and cultural insights.',
+					link: 'https://benkyoulab-blog.vercel.app/'
+				},
+				{
 					cat: 'Web Application',
 					title: 'LPK Saindo Web & Blog',
 					desc: 'Official website and blog platform for LPK Saindo.',
@@ -353,6 +365,18 @@ export const dict = {
 					link: 'https://album.sjodi442.workers.dev/'
 				},
 				{
+					cat: 'Buku Catatan & Blog',
+					title: 'Kept Pages (Blog Pribadi)',
+					desc: 'Buku catatan digital dan jurnal bertema stationery Jepang yang mengeksplorasi pemikiran tenang, pertukangan kayu, dan seni bahasa.',
+					link: 'https://personal-blog.sjodi442.workers.dev/'
+				},
+				{
+					cat: 'Pusat Belajar & Publikasi',
+					title: 'Blog BenkyouLab',
+					desc: 'Blog platform belajar terstruktur untuk kurikulum bahasa Jepang, persiapan ujian SSW Tokutei Ginou, dan tips karier.',
+					link: 'https://benkyoulab-blog.vercel.app/'
+				},
+				{
 					cat: 'Aplikasi Web',
 					title: 'Web & Blog LPK Saindo',
 					desc: 'Situs web resmi dan platform blog untuk LPK Saindo.',
@@ -557,6 +581,18 @@ export const dict = {
 					title: 'Dusk Album',
 					desc: '静寂、光、そして都市生活をテーマにした、厳選された視覚的な物語のアーカイブ。',
 					link: 'https://album.sjodi442.workers.dev/'
+				},
+				{
+					cat: 'デジタル文具＆個人ブログ',
+					title: 'Kept Pages (パーソナルブログ)',
+					desc: '日本の文房具の美学と静寂な思考、木組みの構造、言語の探求を記録するパーソナルデジタルノート。',
+					link: 'https://personal-blog.sjodi442.workers.dev/'
+				},
+				{
+					cat: '学習メディア＆ブログ',
+					title: 'BenkyouLab ブログ',
+					desc: '体系的な日本語学習カリキュラム、特定技能試験対策、日本でのキャリア知見を発信する公式ブログ。',
+					link: 'https://benkyoulab-blog.vercel.app/'
 				},
 				{
 					cat: 'Webアプリケーション',
