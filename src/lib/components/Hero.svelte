@@ -55,8 +55,15 @@
 					style="transform: translateY({scrollY * 0.08}px)"
 					loading="eager"
 				/>
+				<!-- Technical metadata HUD tag -->
+				<div class="absolute top-4 left-4 z-10 bg-surface/80 backdrop-blur border border-white/10 px-3 py-1 brutal-border flex items-center gap-2 pointer-events-none select-none">
+					<span class="w-1.5 h-1.5 rounded-full bg-secondary shadow-neon-secondary animate-pulse"></span>
+					<span class="font-grotesk text-[10px] tracking-[0.25em] text-gray-300 uppercase">TOKYO // NOCTURNAL</span>
+				</div>
+				<!-- Top subtle gradient -->
+				<div class="absolute inset-x-0 top-0 h-16 bg-gradient-to-b from-surface/40 to-transparent pointer-events-none"></div>
 				<!-- Overlay gradient for depth (subtle at bottom edge) -->
-				<div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-surface/50 to-transparent pointer-events-none"></div>
+				<div class="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-surface/60 to-transparent pointer-events-none"></div>
 			</div>
 			
 			<!-- Floating card -->
