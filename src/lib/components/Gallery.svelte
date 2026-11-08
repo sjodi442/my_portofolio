@@ -32,8 +32,8 @@
 		},
 		{
 			id: 2,
-			title: 'Language School Completion',
-			location: 'Japan',
+			title: 'Language School Graduation',
+			location: 'Ibaraki, Japan',
 			image: '/nihongo-gakko-graduation.jpg',
 			span: 'md:col-span-2 md:row-span-1',
 			textColor: 'text-primary',

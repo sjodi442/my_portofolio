@@ -197,7 +197,7 @@ export const dict = {
 			desc: 'Documentation of professional experiences spanning across Japanese industrial sectors and Indonesian tech/education environments.',
 			items: [
 				{ title: 'Construction & Scaffolding', location: 'Tokyo, Japan' },
-				{ title: 'Language School Completion', location: 'Japan' },
+				{ title: 'Language School Graduation', location: 'Ibaraki, Japan' },
 				{ title: 'Akihabara Nights', location: 'Tokyo, Japan' },
 				{ title: 'Web Engineering', location: 'Solo, Indonesia' },
 				{ title: 'Tokyo 2020 Volunteer', location: 'Oi Hockey Stadium, Tokyo' },
@@ -416,7 +416,7 @@ export const dict = {
 			desc: 'Dokumentasi pengalaman profesional di sektor industri Jepang dan lingkungan teknologi/pendidikan Indonesia.',
 			items: [
 				{ title: 'Konstruksi & Scaffolding', location: 'Tokyo, Jepang' },
-				{ title: 'Kelulusan Nihongo Gakkō', location: 'Jepang' },
+				{ title: 'Kelulusan Sekolah Bahasa', location: 'Ibaraki, Jepang' },
 				{ title: 'Malam di Akihabara', location: 'Tokyo, Jepang' },
 				{ title: 'Rekayasa Web', location: 'Solo, Indonesia' },
 				{ title: 'Relawan Olimpiade Tokyo 2020', location: 'Stadion Hoki Oi, Tokyo' },
@@ -635,7 +635,7 @@ export const dict = {
 			desc: '日本の産業部門からインドネシアのテクノロジー/教育環境にまたがる職務経験の記録。',
 			items: [
 				{ title: '建設・足場作業', location: '日本・東京' },
-				{ title: '日本語研修修了', location: '日本' },
+				{ title: '日本語学校卒業', location: '日本・茨城' },
 				{ title: '秋葉原の夜', location: '日本・東京' },
 				{ title: 'ウェブエンジニアリング', location: 'インドネシア・ソロ' },
 				{ title: '東京2020ボランティア', location: '東京・大井ホッケー競技場' },
