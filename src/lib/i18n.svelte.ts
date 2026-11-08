@@ -45,7 +45,7 @@ export const dict = {
 				},
 				{
 					period: '2018 - 2022',
-					role: 'Construction Worker',
+					role: 'Infrastructure Support Engineer',
 					company: 'Kashiwazaki Construction Corporation, Tokyo',
 					desc: 'Gained hands-on industrial experience and strong work ethic in the Japanese construction sector.'
 				},
@@ -264,7 +264,7 @@ export const dict = {
 				},
 				{
 					period: '2018 - 2022',
-					role: 'Pekerja Konstruksi',
+					role: 'Infrastructure Support Engineer',
 					company: 'Kashiwazaki Construction Corporation, Tokyo',
 					desc: 'Mendapat pengalaman industri langsung dan etos kerja yang kuat di sektor konstruksi Jepang.'
 				},
@@ -483,7 +483,7 @@ export const dict = {
 				},
 				{
 					period: '2018 - 2022',
-					role: '建設作業員（とび職）',
+					role: 'インフラサポートエンジニア',
 					company: '株式会社柏崎建設、東京',
 					desc: '日本の建設業界における現場での実務経験と強い労働倫理の習得。'
 				},

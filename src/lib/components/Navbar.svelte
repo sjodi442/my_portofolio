@@ -26,14 +26,14 @@
 <nav class="fixed top-0 w-full z-50 glass" aria-label="Main Navigation">
 	<div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
 		<!-- Logo -->
-		<div class="flex items-center gap-4">
-			<div class="w-10 h-10 brutal-border overflow-hidden border border-white/20">
-				<img src="/user-portrait-thumb.webp" alt="Avatar" width="40" height="40" class="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300" />
+		<a href="#work" class="flex items-center gap-4 group" aria-label="Home">
+			<div class="w-10 h-10 brutal-border bg-surface-container-high border border-white/20 flex items-center justify-center font-epilogue font-black text-white text-base tracking-widest group-hover:border-primary group-hover:text-primary group-hover:shadow-neon-primary transition-all duration-300 select-none">
+				SJ
 			</div>
 			<div class="font-epilogue font-bold text-lg md:text-xl tracking-widest text-white uppercase hidden sm:block">
 				MIDNIGHT ARCHITECT
 			</div>
-		</div>
+		</a>
 
 		<!-- Desktop Menu -->
 		<div class="hidden md:flex items-center gap-8 text-sm font-grotesk tracking-[0.2em] uppercase">
