@@ -43,7 +43,7 @@
 		</div>
 
 		<!-- Right: Image + Floating Card -->
-		<div class="relative w-full h-[600px] lg:h-[700px] group transition-transform duration-75 ease-out z-10" style="transform: translateY({scrollY * 0.05}px)">
+		<div class="relative w-full h-[650px] lg:h-[720px] group transition-transform duration-75 ease-out z-10" style="transform: translateY({scrollY * 0.05}px)">
 			<!-- Main image container -->
 			<div class="absolute inset-0 brutal-border bg-surface-container-low overflow-hidden">
 				<img 
@@ -51,12 +51,12 @@
 					alt="Jodi's Portrait"
 					width="800"
 					height="800"
-					class="w-full h-full object-cover transition-all duration-700 opacity-90 group-hover:opacity-100"
-					style="transform: scale(1.05) translateY({scrollY * 0.08}px)"
+					class="w-full h-full object-cover object-bottom transition-all duration-700 opacity-90 group-hover:opacity-100"
+					style="transform: translateY({scrollY * 0.08}px)"
 					loading="eager"
 				/>
-				<!-- Overlay gradient for depth -->
-				<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent opacity-80"></div>
+				<!-- Overlay gradient for depth (subtle at bottom edge) -->
+				<div class="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-surface/50 to-transparent pointer-events-none"></div>
 			</div>
 			
 			<!-- Floating card -->

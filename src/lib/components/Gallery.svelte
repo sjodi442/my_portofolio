@@ -32,16 +32,26 @@
 		},
 		{
 			id: 2,
-			title: 'Akihabara Nights',
-			location: 'Tokyo, Japan',
-			image: '/akihabara-night.jpg',
-			span: 'md:col-span-1 md:row-span-2',
+			title: 'Language School Completion',
+			location: 'Japan',
+			image: '/nihongo-gakko-graduation.jpg',
+			span: 'md:col-span-2 md:row-span-1',
 			textColor: 'text-primary',
 			groupTextColor: 'group-hover:text-primary',
 			borderColor: 'group-hover:border-primary'
 		},
 		{
 			id: 3,
+			title: 'Akihabara Nights',
+			location: 'Tokyo, Japan',
+			image: '/akihabara-night.jpg',
+			span: 'md:col-span-1 md:row-span-1',
+			textColor: 'text-secondary',
+			groupTextColor: 'group-hover:text-secondary',
+			borderColor: 'group-hover:border-secondary'
+		},
+		{
+			id: 4,
 			title: 'Web Engineering',
 			location: 'Solo, Indonesia',
 			image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800&auto=format&fit=crop',
@@ -51,7 +61,17 @@
 			borderColor: 'group-hover:border-white'
 		},
 		{
-			id: 4,
+			id: 5,
+			title: 'Tokyo 2020 Volunteer',
+			location: 'Oi Hockey Stadium, Tokyo',
+			image: '/olympics-volunteer.jpg',
+			span: 'md:col-span-2 md:row-span-1',
+			textColor: 'text-tertiary',
+			groupTextColor: 'group-hover:text-tertiary',
+			borderColor: 'group-hover:border-tertiary'
+		},
+		{
+			id: 6,
 			title: 'SSW Preparation',
 			location: 'Training Center',
 			image: '/teaching-ssw.jpg',
@@ -61,24 +81,14 @@
 			borderColor: 'group-hover:border-secondary'
 		},
 		{
-			id: 5,
+			id: 7,
 			title: 'Language Instruction',
 			location: 'Solo, Indonesia',
 			image: '/teaching-japanese.jpg',
-			span: 'md:col-span-2 md:row-span-1',
+			span: 'md:col-span-1 md:row-span-1',
 			textColor: 'text-primary',
 			groupTextColor: 'group-hover:text-primary',
 			borderColor: 'group-hover:border-primary'
-		},
-		{
-			id: 6,
-			title: 'Tokyo 2020 Volunteer',
-			location: 'Oi Hockey Stadium, Tokyo',
-			image: '/olympics-volunteer.jpg',
-			span: 'md:col-span-2 md:row-span-1',
-			textColor: 'text-tertiary',
-			groupTextColor: 'group-hover:text-tertiary',
-			borderColor: 'group-hover:border-tertiary'
 		}
 	];
 </script>
