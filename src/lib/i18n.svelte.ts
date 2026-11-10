@@ -141,6 +141,12 @@ export const dict = {
 			title: 'Projects',
 			items: [
 				{
+					cat: 'Resource Hub & Directory',
+					title: 'Nihongo_repo (日本語レポ)',
+					desc: 'A curated directory and resource hub for Japanese language textbooks, JLPT prep (N5–N1), kanji, and grammar materials without ads.',
+					link: 'https://nihongo-repo.cirilalacture.workers.dev/about'
+				},
+				{
 					cat: 'Photography Gallery',
 					title: 'Dusk Album',
 					desc: 'A curated archive of visual stories exploring silence, light, and metropolitan life.',
@@ -360,6 +366,12 @@ export const dict = {
 			title: 'Proyek',
 			items: [
 				{
+					cat: 'Direktori & Repositori Belajar',
+					title: 'Nihongo_repo (日本語レポ)',
+					desc: 'Katalog terpusat materi dan buku teks bahasa Jepang terkurasi, persiapan JLPT (N5–N1), kanji, serta tata bahasa yang tertata rapi tanpa iklan.',
+					link: 'https://nihongo-repo.cirilalacture.workers.dev/about'
+				},
+				{
 					cat: 'Galeri Fotografi',
 					title: 'Dusk Album',
 					desc: 'Arsip cerita visual yang dikurasi, mengeksplorasi keheningan, cahaya, dan kehidupan metropolitan.',
@@ -578,6 +590,12 @@ export const dict = {
 		projects: {
 			title: 'プロジェクト',
 			items: [
+				{
+					cat: '学習リソース・ディレクトリ',
+					title: 'Nihongo_repo (日本語レポ)',
+					desc: 'JLPT（N5〜N1）対策、文法、漢字、教科書を体系的に整理した広告のない厳選日本語学習リソースディレクトリ。',
+					link: 'https://nihongo-repo.cirilalacture.workers.dev/about'
+				},
 				{
 					cat: 'フォトグラフィーギャラリー',
 					title: 'Dusk Album',
